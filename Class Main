@@ -1,0 +1,18 @@
+public class Main {
+
+	public static void main(String[] args) {
+		Pet pet = new Pet();
+		pet.setColor("brown");
+		pet.sleep();
+		pet.eat();
+		
+		
+		Fish fish = new Fish();
+		fish.setColor("blue");
+		fish.sleep();
+		fish.eat();
+		fish.dive(4);
+
+	}
+
+}
