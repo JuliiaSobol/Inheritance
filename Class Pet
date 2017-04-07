@@ -1,0 +1,48 @@
+public class Pet {
+	
+	 private int age;
+	 private float weight;
+	 private float height;
+	 private String color;
+	 
+	 
+	 public void sleep(){
+	 System.out.println("I want to sleep");
+	 }
+	 
+	 public void eat(){ 
+	 System.out.println("I want to eat!");
+	 }
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public float getWeight() {
+		return weight;
+	}
+
+	public void setWeight(float weight) {
+		this.weight = weight;
+	}
+
+	public float getHeight() {
+		return height;
+	}
+
+	public void setHeight(float height) {
+		this.height = height;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	} 
+}
